@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47eb07e3-4174-460d-bafa-46a57e315ef3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/Last_digit_of_a_large_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/best_travel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/is_my_friend_cheating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/moving_zero_to_the_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/perfect_power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/scrambles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/build_tower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/digital_root.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/equals_side_of_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/eureka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/find_the_odd_int.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/6kyu/pyramid_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../312_burst_balloon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../338_counting_bits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../581_Shortest_Unsorted_Continuous_Subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/SteamIsDown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/SteamIsDown.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../202_Happy_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../202_Happy_Number.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eo5fnoA3le5XgcPKLteaMlZzsH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
+  </component>
+  <component name="RunManager">
+    <configuration name="198_house_robber.ws.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/198_house_robber.ws.kts" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" value="$PROJECT_DIR$/src/198_house_robber.ws.kts" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin script.198_house_robber.ws.kts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47eb07e3-4174-460d-bafa-46a57e315ef3" name="Default Changelist" comment="" />
+      <created>1594975210033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594975210033</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="245" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595172474072">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="245" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.487.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1595172474072" />
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1594975481182" />
+    <state x="678" y="337" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595172287888">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="678" y="337" key="#com.intellij.fileTypes.FileTypeChooser/-1440.487.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1595172287888" />
+    <state x="609" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595172473104">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="609" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog/-1440.487.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1595172473104" />
+    <state x="457" y="227" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.829@0.23.1440.829" timestamp="1594975480368" />
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom" timestamp="1594978994464">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594978994464" />
+    <state width="1398" height="266" key="GridCell.Tab.0.center" timestamp="1594978994463">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594978994463" />
+    <state width="1398" height="266" key="GridCell.Tab.0.left" timestamp="1594978994463">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594978994463" />
+    <state width="1398" height="266" key="GridCell.Tab.0.right" timestamp="1594978994464">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594978994464" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1594978994465">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594978994465" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1594978994465">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594978994465" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1594978994464">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594978994464" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1594978994465">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594978994465" />
+    <state x="389" y="254" key="new project wizard" timestamp="1595172558329">
+      <screen x="0" y="23" width="1920" height="1009" />
+    </state>
+    <state x="389" y="254" key="new project wizard/-1440.487.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1595172558329" />
+  </component>
+</project>

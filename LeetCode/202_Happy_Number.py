@@ -28,7 +28,3 @@ class Solution(object):
 
             if n < 1000:
                 return False
-
-for i in range(1, 1000):
-    if Solution().isHappy(i):
-        print(i, end=',')
