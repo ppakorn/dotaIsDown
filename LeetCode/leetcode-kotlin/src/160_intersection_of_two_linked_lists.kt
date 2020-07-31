@@ -7,7 +7,7 @@
  *     var next: ListNode? = null
  * }
  */
-private class ListNode(var `val`: Int) {
+class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
 

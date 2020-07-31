@@ -1,6 +1,6 @@
 import kotlin.test.assertEquals
 
-class Solution {
+class Solution128 {
     fun longestConsecutive(nums: IntArray): Int {
         val n = nums.distinct()
         val map = mutableMapOf<Int, Int>()
@@ -21,7 +21,7 @@ class Solution {
 }
 
 fun main() {
-    val s = Solution()
+    val s = Solution128()
     assertEquals(s.longestConsecutive(intArrayOf(100, 4, 200, 1, 3, 2, 5)), 5)
     assertEquals(s.longestConsecutive(intArrayOf(100, 4, 200, 2, 1, 3, 2, 5)), 5)
     assertEquals(s.longestConsecutive(intArrayOf()), 0)
