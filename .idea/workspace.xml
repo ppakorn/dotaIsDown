@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501ec9aa-7e58-418d-8871-d5eb7117782d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/Last_digit_of_a_large_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/best_travel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/is_my_friend_cheating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/moving_zero_to_the_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/perfect_power.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/scrambles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/build_tower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/digital_root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/equals_side_of_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/eureka.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/find_the_odd_int.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codewars/6kyu/pyramid_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/312_burst_balloon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/338_counting_bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/581_Shortest_Unsorted_Continuous_Subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SteamIsDown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SteamIsDown.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/202_Happy_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/202_Happy_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/62_unique_paths.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/75_sort_color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/Solution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
