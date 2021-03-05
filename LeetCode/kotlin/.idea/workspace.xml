@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="203f2fa5-a8ad-4316-9d5f-be99fac9a119" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/1001_grid_illumination.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/1189_maximum_balloons.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/11_container_with_most_water.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/121_best_time_to_buy_and_sell_stock.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/128_longest_consecutive_seq.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/136_single_number.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/141_linked_list_cycle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/142_linked_list_cycle2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/155_min_stack.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/15_3sum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/15_3sum_version2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/15_3sum_version3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/160_intersection_of_two_linked_lists.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/168_excel_sheet_column_title.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/169_majority.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/198_house_robber.ws.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/1_two_sum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/200_numbers_of_island.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/213_hourse_robber2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/21_merge_two_sorted_lists.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/229_major_element_2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/268_missing_number.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/26_remove_duplicate_from_sorted_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/278_first_bad_version.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/287_find_the_duplicate_numbers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/322_coin_change.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/387_first_unique_character_in_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/38_count_and_say.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/406_queue_reconstruction_4.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/406_queue_reconstruction_by_height.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/41_missing_first_positive.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/421_maximum_xor_of_two_numbers_in_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/442_find_all_duplicates_in_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/448_find_all_numbers_disappear.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/46_permutation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/48_rotate_image.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/494_target_sum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/49_group_anagrams.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/53_maximum_subarray.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/5503_sum_of_odd_length.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/5505_maximum_sum_obtain_by_permutation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/5519_rearranage_space_between_words.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/61_rotate_list.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/62_unique_paths.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/645_set_mismatch.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/70_climbing_stairs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/739_daily_temperatures.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/746_min_course_climbing_stair.ws.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/75_sort_color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/841_keys_and_rooms.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/905_sort_array_by_parity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/980_unique_paths3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/983_minimum_cost_for_tickets.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/999_available_captures_for_rook.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/BinaryIndexTree.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/BinarySearchTree.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/BinaryTrie.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/ListNode.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/TreeNode.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/Trie.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day10-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day10-3.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day10.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day10.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day11-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day11.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day11.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day12-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day12-2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day12.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day12.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day13-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day13.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day13.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day14.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day14.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day15.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day16.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day16.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day17.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day18.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day18.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day19-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day19-Rule.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day19-Rule2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day19.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day19.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day20-Real.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day20.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day20.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day20_2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day3.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day4-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day4.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day4.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day5.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day5.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day6.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day6.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day7-2.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day7-3.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day7.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day7.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day8.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day8.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day9.input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Day9.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/FindSeaMonsters.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/advent2020/Tile.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/all_elements_in_binary_search_tree.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/bulls_and_cows.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/car_pooling.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/combination_sum_3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/compare_version_numbers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/contains_duplicate_3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/delete_node_in_BST.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/find_right_interval.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/find_the_difference.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/fizzbuzz.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/gas_station.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/implement_rand10_using_rand7.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/insert_interval.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/largest_number.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/largest_time_for_given_digits.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/length_of_last_word.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/maximum_product_subarray.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/pancake_sorting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/repeated_substring_pattern.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/robot_bounded_in_circle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/sequential_digits.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/shopee/Csv.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/shopee/Test.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/stream_of_characters.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/subarray_product_less_than_k.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/sum_of_left_leaves.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/sum_of_root_to_leaves_binary_numbers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/teemo_attacking.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-kotlin/src/util/IntExtension.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pKmCKn3gEnOw2BLc8AmGhtLqx2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/leetcode" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Day20_2Kt">
+    <configuration name="Day20_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="advent2020.Day20_2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_two_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_1_two_sumKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Day20_2Kt" />
+        <item itemvalue="Application._1_two_sumKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="203f2fa5-a8ad-4316-9d5f-be99fac9a119" name="Default Changelist" comment="" />
+      <created>1614940026818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614940026818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="340" key="GridCell.Tab.0.bottom" timestamp="1614940731177">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731177" />
+    <state width="1878" height="340" key="GridCell.Tab.0.center" timestamp="1614940731176">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731176" />
+    <state width="1878" height="340" key="GridCell.Tab.0.left" timestamp="1614940731176">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731176" />
+    <state width="1878" height="340" key="GridCell.Tab.0.right" timestamp="1614940731177">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731177" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom" timestamp="1614940731179">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731179" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center" timestamp="1614940731178">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.center/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731178" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left" timestamp="1614940731178">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.left/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731178" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right" timestamp="1614940731179">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.right/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940731179" />
+    <state x="448" y="111" key="SettingsEditor" timestamp="1614940445713">
+      <screen x="0" y="23" width="1920" height="1013" />
+    </state>
+    <state x="448" y="111" key="SettingsEditor/-1440.203.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1614940445713" />
+  </component>
+</project>

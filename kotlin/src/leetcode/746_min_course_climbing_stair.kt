@@ -11,5 +11,7 @@ class Solution746 {
     }
 }
 
-val s = Solution746()
-s.minCostClimbingStairs(intArrayOf(1, 2, 2, 1))
+fun main() {
+    val s = Solution746()
+    s.minCostClimbingStairs(intArrayOf(1, 2, 2, 1))
+}

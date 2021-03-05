@@ -1,4 +1,4 @@
-class Solution {
+class Solution198 {
     fun rob(nums: IntArray): Int {
         var max0 = 0
         var max1 = 0
@@ -30,13 +30,15 @@ class Solution {
     }
 }
 
-val s = Solution213()
-println(s.rob(intArrayOf(1, 2, 3, 1)))
-println(s.rob(intArrayOf(2, 1, 3, 4)))
-println(s.rob(intArrayOf(2, 7, 9, 3, 1)))
-println(s.rob(intArrayOf(2, 8, 9, 5, 1)))
-println(s.rob(intArrayOf()))
-println(s.rob(intArrayOf(1)))
-println(s.rob(intArrayOf(1, 2)))
-println(s.rob(intArrayOf(2, 3, 4)))
-println(s.rob(intArrayOf(1, 4, 2)))
+fun main() {
+    val s = Solution198()
+    println(s.rob(intArrayOf(1, 2, 3, 1)))
+    println(s.rob(intArrayOf(2, 1, 3, 4)))
+    println(s.rob(intArrayOf(2, 7, 9, 3, 1)))
+    println(s.rob(intArrayOf(2, 8, 9, 5, 1)))
+    println(s.rob(intArrayOf()))
+    println(s.rob(intArrayOf(1)))
+    println(s.rob(intArrayOf(1, 2)))
+    println(s.rob(intArrayOf(2, 3, 4)))
+    println(s.rob(intArrayOf(1, 4, 2)))
+}

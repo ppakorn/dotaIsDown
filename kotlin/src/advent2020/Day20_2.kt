@@ -65,7 +65,7 @@ class Day20_2 {
         var i = 0
         var tileStr = mutableListOf<String>()
         var tileNumber = 0
-        File("/Users/ampos/Documents/dota_is_down/LeetCode/leetcode-kotlin/src/advent2020/Day20-Real.input").forEachLine { line ->
+        File("/Users/ampos/Documents/dota_is_down/LeetCode/kotlin/src/advent2020/Day20-Real.input").forEachLine { line ->
 //        File("/Users/ampos/Documents/dota_is_down/LeetCode/leetcode-kotlin/src/advent2020/Day20.input").forEachLine { line ->
             // 1 tile use 12 lines
             when (i) {
