@@ -1,3 +1,4 @@
 *.class
 LeetCode/leetcode-kotlin/out/production/
 LeetCode/leetcode-kotlin/.idea/sonarlint
+.idea/
