@@ -2,9 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203f2fa5-a8ad-4316-9d5f-be99fac9a119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../kotlin/src/shopee/DataAna.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kotlin/src/shopee/Csv.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kotlin/src/shopee/Test.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/[undone]skyscraper4x4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/breadth_first_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/explosive_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/matrix_determinant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/nesting-structure-comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/next_bigger_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/4kyu/roman_numeral_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Codewars/5kyu/find-prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day21-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day21.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day22-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day22.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day24-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/advent2020/Day24.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/codewars/kyu6/6kyu-enough-is-enough" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/TestString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day21-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day21.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day22-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day22.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day22.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day23.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day23_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day24-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day24.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day24.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Day25.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2020/Node.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day1.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day10.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day11.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day12.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day13.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day13.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day14.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day15.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day15.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day16-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day16.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day16.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day17.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day18.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day18.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day2.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day3.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day4.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day5.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day6.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day7.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day8.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day9.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/advent2021/Day9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/codewars/kyu5/Int32ToIpv4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/codewars/kyu5/build_a_pile_of_cubes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/codewars/kyu6/6kyu-convert-string-to-camel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/codewars/kyu6/6kyu-enough-is-enough" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/codewars/kyu6/multiples_of_3_and_5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/leetcode/1247_minimum_swap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/leetcode/TrieNodeWithValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/src/leetcode/map_sum_pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/SteamIsDown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/SteamIsDown.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/.idea/sonarlint/issuestore/5/c/5c453e4ab6032754e312fab39deab7b4b1b9949f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/.idea/sonarlint/issuestore/b/9/b9329cdadafb9c71e36e335fb84cf1c16e9269d8" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/.idea/sonarlint/issuestore/b/9/b9329cdadafb9c71e36e335fb84cf1c16e9269d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/src/leetcode/Trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/src/leetcode/Trie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/src/leetcode/stream_of_characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/src/leetcode/stream_of_characters.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +110,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/leetcode" />
@@ -51,39 +125,21 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day20_2Kt">
+  <component name="RunManager" selected="Kotlin._1_two_sumKt">
     <configuration name="Day20_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="advent2020.Day20_2Kt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="_1_two_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="_1_two_sumKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Day20_2Kt" />
-        <item itemvalue="Application._1_two_sumKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

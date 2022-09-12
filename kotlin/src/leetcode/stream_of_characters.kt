@@ -1,3 +1,6 @@
+import leetcode.Trie
+import leetcode.TrieNode
+
 class QTrie: Trie() {
     private var previous = setOf<TrieNode>()
     fun query(letter: Char): Boolean {

@@ -2,9 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501ec9aa-7e58-418d-8871-d5eb7117782d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/62_unique_paths.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/75_sort_color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/leetcode-kotlin/src/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/[undone]skyscraper4x4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/breadth_first_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/explosive_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/matrix_determinant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/nesting-structure-comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/next_bigger_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/4kyu/roman_numeral_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codewars/5kyu/find-prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day21-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day21.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day22-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day22.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day24-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/advent2020/Day24.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/codewars/kyu6/6kyu-enough-is-enough" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day21-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day21.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day22-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day22.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day22.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day23.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day23_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day24-test.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day24.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day24.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Day25.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/advent2020/Node.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/codewars/kyu5/Int32ToIpv4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/codewars/kyu5/build_a_pile_of_cubes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/codewars/kyu6/6kyu-convert-string-to-camel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/codewars/kyu6/6kyu-enough-is-enough" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/codewars/kyu6/multiples_of_3_and_5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/leetcode/1247_minimum_swap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/leetcode/TrieNodeWithValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin/src/leetcode/map_sum_pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SteamIsDown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SteamIsDown.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/.idea/sonarlint/issuestore/5/c/5c453e4ab6032754e312fab39deab7b4b1b9949f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/.idea/sonarlint/issuestore/b/9/b9329cdadafb9c71e36e335fb84cf1c16e9269d8" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/.idea/sonarlint/issuestore/b/9/b9329cdadafb9c71e36e335fb84cf1c16e9269d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/src/leetcode/Trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/src/leetcode/Trie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin/src/leetcode/stream_of_characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin/src/leetcode/stream_of_characters.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +75,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.581_Shortest_Unsorted_Continuous_Subarray">
-    <configuration name="338_counting_bits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.matrix_determinant">
+    <configuration name="[undone]skyscraper4x4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SteamIsDown" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/4kyu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/338_counting_bits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/4kyu/[undone]skyscraper4x4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="581_Shortest_Unsorted_Continuous_Subarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="breadth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SteamIsDown" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/4kyu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/581_Shortest_Unsorted_Continuous_Subarray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/4kyu/breadth_first_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="is_my_friend_cheating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matrix_determinant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SteamIsDown" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/5kyu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/4kyu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/5kyu/is_my_friend_cheating.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/4kyu/matrix_determinant.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="perfect_power" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nesting-structure-comparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SteamIsDown" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/5kyu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/4kyu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/5kyu/perfect_power.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/4kyu/nesting-structure-comparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scrambles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="next_bigger_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SteamIsDown" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/5kyu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars/4kyu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/5kyu/scrambles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codewars/4kyu/next_bigger_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.581_Shortest_Unsorted_Continuous_Subarray" />
-        <item itemvalue="Python.338_counting_bits" />
-        <item itemvalue="Python.perfect_power" />
-        <item itemvalue="Python.scrambles" />
-        <item itemvalue="Python.is_my_friend_cheating" />
+        <item itemvalue="Python.matrix_determinant" />
+        <item itemvalue="Python.next_bigger_number" />
+        <item itemvalue="Python.nesting-structure-comparison" />
+        <item itemvalue="Python.[undone]skyscraper4x4" />
+        <item itemvalue="Python.breadth_first_search" />
       </list>
     </recent_temporary>
   </component>
@@ -178,47 +221,82 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="290" key="GridCell.Tab.0.bottom" timestamp="1594479124126">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="648" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631457495990">
+      <screen x="0" y="23" width="1920" height="1018" />
     </state>
-    <state width="1419" height="290" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594479124126" />
-    <state width="1419" height="296" key="GridCell.Tab.0.bottom/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706288" />
-    <state width="1419" height="290" key="GridCell.Tab.0.center" timestamp="1594479124125">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="648" y="342" key="#com.intellij.fileTypes.FileTypeChooser/-1440.131.1440.877/0.23.1920.1018@0.23.1920.1018" timestamp="1631457495990" />
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom" timestamp="1632450228835">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="290" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1594479124125" />
-    <state width="1419" height="296" key="GridCell.Tab.0.center/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706287" />
-    <state width="1419" height="290" key="GridCell.Tab.0.left" timestamp="1594479124125">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="369" key="GridCell.Tab.0.bottom/-1440.131.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1629044036671" />
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/-1440.131.1440.877/0.23.1920.1018@0.23.1920.1018" timestamp="1631502319597" />
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632450228835" />
+    <state width="2539" height="371" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.2560.1018@0.23.2560.1018" timestamp="1630055702645" />
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom/0.23.2560.1014@0.23.2560.1014" timestamp="1632407865351" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center" timestamp="1632450228834">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="290" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1594479124125" />
-    <state width="1419" height="296" key="GridCell.Tab.0.left/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706286" />
-    <state width="1419" height="290" key="GridCell.Tab.0.right" timestamp="1594479124125">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="369" key="GridCell.Tab.0.center/-1440.131.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1629044036669" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center/-1440.131.1440.877/0.23.1920.1018@0.23.1920.1018" timestamp="1631502319596" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632450228834" />
+    <state width="2539" height="371" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.2560.1018@0.23.2560.1018" timestamp="1630055702644" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center/0.23.2560.1014@0.23.2560.1014" timestamp="1632407865350" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left" timestamp="1632450228834">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="290" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1594479124125" />
-    <state width="1419" height="296" key="GridCell.Tab.0.right/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706287" />
-    <state width="1419" height="296" key="GridCell.Tab.1.bottom" timestamp="1594479124120">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="369" key="GridCell.Tab.0.left/-1440.131.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1629044036669" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left/-1440.131.1440.877/0.23.1920.1018@0.23.1920.1018" timestamp="1631502319595" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632450228833" />
+    <state width="2539" height="371" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.2560.1018@0.23.2560.1018" timestamp="1630055702643" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left/0.23.2560.1014@0.23.2560.1014" timestamp="1632407865350" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right" timestamp="1632450228834">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="296" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1594479124120" />
-    <state width="1419" height="296" key="GridCell.Tab.1.bottom/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706289" />
-    <state width="1419" height="296" key="GridCell.Tab.1.center" timestamp="1594479124120">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="369" key="GridCell.Tab.0.right/-1440.131.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1629044036670" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right/-1440.131.1440.877/0.23.1920.1018@0.23.1920.1018" timestamp="1631502319596" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632450228834" />
+    <state width="2539" height="371" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.2560.1018@0.23.2560.1018" timestamp="1630055702644" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right/0.23.2560.1014@0.23.2560.1014" timestamp="1632407865351" />
+    <state width="1899" height="377" key="GridCell.Tab.1.bottom" timestamp="1632405712629">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="296" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1594479124120" />
-    <state width="1419" height="296" key="GridCell.Tab.1.center/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706288" />
-    <state width="1419" height="296" key="GridCell.Tab.1.left" timestamp="1594479124119">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="377" key="GridCell.Tab.1.bottom/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632399596810" />
+    <state width="1899" height="377" key="GridCell.Tab.1.bottom/0.23.2560.1014@0.23.2560.1014" timestamp="1632405712629" />
+    <state width="1899" height="377" key="GridCell.Tab.1.center" timestamp="1632405712628">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="296" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1594479124119" />
-    <state width="1419" height="296" key="GridCell.Tab.1.left/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706288" />
-    <state width="1419" height="296" key="GridCell.Tab.1.right" timestamp="1594479124120">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1899" height="377" key="GridCell.Tab.1.center/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632399596809" />
+    <state width="1899" height="377" key="GridCell.Tab.1.center/0.23.2560.1014@0.23.2560.1014" timestamp="1632405712628" />
+    <state width="1899" height="377" key="GridCell.Tab.1.left" timestamp="1632405712628">
+      <screen x="0" y="23" width="2560" height="1014" />
     </state>
-    <state width="1419" height="296" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1594479124120" />
-    <state width="1419" height="296" key="GridCell.Tab.1.right/240.1103.1440.877/0.23.1920.1009@0.23.1920.1009" timestamp="1594180706289" />
+    <state width="1899" height="377" key="GridCell.Tab.1.left/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632399596809" />
+    <state width="1899" height="377" key="GridCell.Tab.1.left/0.23.2560.1014@0.23.2560.1014" timestamp="1632405712628" />
+    <state width="1899" height="377" key="GridCell.Tab.1.right" timestamp="1632405712628">
+      <screen x="0" y="23" width="2560" height="1014" />
+    </state>
+    <state width="1899" height="377" key="GridCell.Tab.1.right/-1440.203.1440.877/0.23.2560.1014@0.23.2560.1014" timestamp="1632399596810" />
+    <state width="1899" height="377" key="GridCell.Tab.1.right/0.23.2560.1014@0.23.2560.1014" timestamp="1632405712628" />
+    <state x="625" y="169" key="SettingsEditor" timestamp="1630055701184">
+      <screen x="0" y="23" width="2560" height="1018" />
+    </state>
+    <state x="469" y="168" key="SettingsEditor/-1440.131.1440.877/0.23.1920.1013@0.23.1920.1013" timestamp="1629039642118" />
+    <state x="625" y="169" key="SettingsEditor/-1440.203.1440.877/0.23.2560.1018@0.23.2560.1018" timestamp="1630055701184" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Codewars/4kyu/next_bigger_number.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">

@@ -1,4 +1,6 @@
-class TrieNode {
+package leetcode
+
+open class TrieNode {
     val children = Array<TrieNode?>(26) { null }
     var isLeaf = false
 }
