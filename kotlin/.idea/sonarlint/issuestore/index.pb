@@ -157,3 +157,5 @@ J
 src/advent2021/Day22.input,7/0/70a2259d87051bca8edb15dbe63b51044e14495a
 G
 src/advent2021/Day22.kt,c/0/c0003f8827557c00ff82c5288ea144dd9b0478ea
+G
+src/advent2021/Day23.kt,d/3/d37092ff01ecfb4b0435c5cf5362505ef6437128

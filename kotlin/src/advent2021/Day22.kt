@@ -77,9 +77,9 @@ private class Cuboid(
     fun isOverlapZ(another: Cuboid): Boolean =
         zRange.first in another.zRange || zRange.last in another.zRange
 
-    fun processOverlap(another: Cuboid): Set<Cuboid> {
-
-    }
+//    fun processOverlap(another: Cuboid): Set<Cuboid> {
+//
+//    }
 
     override fun toString(): String {
         return "[x = (${xRange.first}, ${xRange.last}), y = (${yRange.first}, ${yRange.last}), z = (${zRange.first}, ${zRange.last})"
