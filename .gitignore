@@ -4,3 +4,5 @@ LeetCode/leetcode-kotlin/.idea/sonarlint
 */.idea/
 .idea/
 kotlin/out
+js/adventofcode2022/node_modules
+js/adventofcode2022/out

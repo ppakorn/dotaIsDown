@@ -19,16 +19,16 @@ function execute() {
         blueprints.push(b)
     })
 
-    // let c = 0
-    // blueprints.forEach(bp => {
-    //     max = -1
-    //     findMax(bp)
-    //     c += bp.id * max
-    // })
-    // console.log(c)
+    let c = 1
+    blueprints.forEach(bp => {
+        max = -1
+        findMax(bp)
+        c *= max
+    })
+    console.log(c)
 
-    findMax(blueprints[0])
-    console.log(max)
+    // findMax(blueprints[0])
+    // console.log(max)
 }
 
 function findMax(blueprint) {
@@ -43,12 +43,12 @@ function findMax(blueprint) {
         geode: 0
     }
     
-    return run(blueprint, initialState, 1)
+    return run(blueprint, initialState, 1, 'initial', [])
 }
 
 let max = 0
 let lastMinute = 32
-function run(blueprint, state, minute) {
+function run(blueprint, state, minute, lastAction, siblings) {
 
     // Minute start at 1 - lastMinute
     if (minute > lastMinute) {
@@ -63,21 +63,31 @@ function run(blueprint, state, minute) {
         return
     }
 
-    const newStates = buildRobot(blueprint, state, minute)
+    const newStates = buildRobot(blueprint, state, minute, lastAction, siblings)
     collect(newStates, state)
 
     newStates.forEach(newState => {
-        run(blueprint, newState, minute + 1)
+        run(blueprint, newState[1], minute + 1, newState[0], newStates)
     })
 }
 
-function buildRobot(blueprint, currentState, minute) {
+function buildRobot(blueprint, currentState, minute, lastAction, siblings) {
+
+    // Return pair of an action (robot built) and the new state
+    // Such as [['clay', {...}], ['obsidian', {...}]
+
+    const siblingActions = siblings.map(x => x[0])
+    const lastTurnCanBuildObsidianButDidNot = lastAction == 'nothing' && siblingActions.includes('obsidian')
+    const lastTurnCanBuildClayButDidNot = lastAction == 'nothing' && siblingActions.includes('clay')
+    const lastTurnCanBuildOreButDidNot = lastAction == 'nothing' && siblingActions.includes('ore')
 
     const canBuildClayRobot = minute <= lastMinute - 5              // This robot won't produce any geode
         && currentState.clayRobot < blueprint.obsidianRobotReq[1]   // If we have enough robot for max consumption per turn, no need more robots
+        && !lastTurnCanBuildClayButDidNot
         && currentState.ore >= blueprint.clayRobotReq
     const canBuildObsidianRobot = minute <= lastMinute - 3                                        
         && currentState.obsidianRobot < blueprint.geodeRobotReq[1]         
+        && !lastTurnCanBuildObsidianButDidNot
         && currentState.ore >= blueprint.obsidianRobotReq[0]
         && currentState.clay >= blueprint.obsidianRobotReq[1]
     const canBuildGeodeRobot = minute <= lastMinute - 1
@@ -85,6 +95,7 @@ function buildRobot(blueprint, currentState, minute) {
         && currentState.obsidian >= blueprint.geodeRobotReq[1]
     const canBuildOreRobot = minute <= lastMinute - 3
         && currentState.oreRobot < blueprint.maxOreConsume
+        && !lastTurnCanBuildOreButDidNot
         && currentState.ore >= blueprint.oreRobotReq
 
     // If can build geode robot, build it no matter what
@@ -111,7 +122,7 @@ function buildRobot(blueprint, currentState, minute) {
     }
 
     // For do nothing
-    newStates.push(currentState)
+    newStates.push(['nothing', currentState])
     return newStates
 }
 
@@ -119,7 +130,7 @@ function buildClayRobot(blueprint, currentState) {
     const newState = Object.assign({}, currentState)
     newState.clayRobot += 1
     newState.ore -= blueprint.clayRobotReq
-    return newState
+    return ['clay', newState]
 }
 
 function buildObsidianRobot(blueprint, currentState) {
@@ -127,7 +138,7 @@ function buildObsidianRobot(blueprint, currentState) {
     newState.obsidianRobot += 1
     newState.ore -= blueprint.obsidianRobotReq[0]
     newState.clay -= blueprint.obsidianRobotReq[1]
-    return newState
+    return ['obsidian', newState]
 }
 
 function buildGeodeRobot(blueprint, currentState) {
@@ -135,19 +146,20 @@ function buildGeodeRobot(blueprint, currentState) {
     newState.geodeRobot += 1
     newState.ore -= blueprint.geodeRobotReq[0]
     newState.obsidian -= blueprint.geodeRobotReq[1]
-    return newState
+    return ['geode', newState]
 }
 
 function buildOreRobot(blueprint, currentState) {
     const newState = Object.assign({}, currentState)
     newState.oreRobot += 1
     newState.ore -= blueprint.oreRobotReq
-    return newState
+    return ['ore', newState]
 }
 
 // Mutating
 function collect(newStates, currentState) {
-    newStates.forEach(newState => {
+    newStates.forEach(x => {
+        const newState = x[1]
         newState.ore += currentState.oreRobot
         newState.clay += currentState.clayRobot
         newState.obsidian += currentState.obsidianRobot
