@@ -1,39 +1,9 @@
 import { readFileSync } from 'fs';
 
-class MonkeyNode {
-    l?: MonkeyNode;
-    r?: MonkeyNode;
-    op?: String;
-    n?: Number;
-    constructor(l?: MonkeyNode, r?: MonkeyNode, op?: string, n?: Number) {
-        this.l = l
-        this.r = r
-        this.op = op
-        this.n = n
-    }
-}
-
 function execute() {
     const filename = 'day21.input'
     const data = readFileSync(filename, 'utf8')
     const lines = data.split('\n')
-
-    // const nodes: { [key: string]: MonkeyNode; } = {}
-    // const initialCodes = lines.forEach(line => {
-        // const a = line.split(': ')
-        // const b = a[1].split(' ')
-
-        // // Number monkey
-        // if (b.length === 1) {
-        //     nodes[a[0]] = new MonkeyNode(undefined, undefined, undefined, Number(b[0]))
-        // } else {
-        //     let l = nodes[a[0]]
-        //     if (l === undefined) {
-        //         l = new MonkeyNode()
-        //     }
-        //     nodes[a[0]] = new MonkeyNode()
-        // }
-    // })
 
     lines.forEach(line => {
         const a = line.split(': ')
@@ -47,14 +17,23 @@ function execute() {
         }
     })
 
-    console.log(cal('root'))
+    // Replace root with L - R, and will start with target=0
+    const a = monkeyInputs['root'].split(' ')
+    monkeyInputs['root'] = `${a[0]} - ${a[2]}`
+
+    // console.log(monkeyInputs['root'])
     // console.log(monkeyValues)
+    console.log(calHuman(0, 'root'))
 }
 
 const monkeyInputs: Record<string, string> = {}
 const monkeyValues: Record<string, number> = {}
 
-function cal(name: string): number {
+function cal(name: string) {
+    if (name === 'humn') {
+        return undefined
+    }
+
     if (monkeyValues[name] !== undefined) {
         return monkeyValues[name]
     }
@@ -62,6 +41,11 @@ function cal(name: string): number {
     const v = monkeyInputs[name].split(' ')
     const m1 = cal(v[0])
     const m2 = cal(v[2])
+    if (m1 === undefined || m2 === undefined) {
+        return undefined
+    }
+
+    // dummy
     let value = -20000000
     switch (v[1]) {
         case '+':
@@ -83,11 +67,46 @@ function cal(name: string): number {
 
 function calHuman(target: number, name: string) {
     if (name === 'humn') {
-        return undefined
+        console.log(target)
+        return
     }
 
     const v = monkeyInputs[name].split(' ')
-    const m1 = 
+    const l = cal(v[0])
+    const r = cal(v[2])
+
+    const knownValue: number = (l || r)!
+    let next = v[0]
+    if (r === undefined) {
+        next = v[2]
+    }
+
+    // dummy
+    let newTarget = -20000000
+    switch (v[1]) {
+        case '+':
+            newTarget = target - knownValue
+            break;
+        case '-':
+            if (l === undefined) {
+                newTarget = target + knownValue
+            } else {
+                newTarget = knownValue - target
+            }
+            break;
+        case '*':
+            newTarget = target / knownValue!
+            break;
+        case '/':
+            if (l === undefined) {
+                newTarget = target * knownValue
+            } else {
+                newTarget = knownValue / target
+            }
+            break;
+    }
+
+    calHuman(newTarget, next)
 }
 
 execute()
