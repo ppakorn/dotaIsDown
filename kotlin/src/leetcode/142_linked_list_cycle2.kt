@@ -1,3 +1,5 @@
+import leetcode.Node
+
 class Solution142 {
 
     // let a = distance from start node to start of cycle
@@ -10,7 +12,7 @@ class Solution142 {
     // We got 2(a + b) = a + 2b + c
     // Thus a = c
 
-    fun detectCycle(head: ListNode?): ListNode? {
+    fun detectCycle(head: Node?): Node? {
         if (head == null) return null
         var i1 = head
         var i2 = head
@@ -39,10 +41,10 @@ class Solution142 {
 }
 
 fun main() {
-    val a1 = ListNode(1)
-    val a2 = ListNode(2)
-    val a3 = ListNode(3)
-    val a4 = ListNode(4)
+    val a1 = Node(1)
+    val a2 = Node(2)
+    val a3 = Node(3)
+    val a4 = Node(4)
     a1.next = a2
     a2.next = a3
     a3.next = a4

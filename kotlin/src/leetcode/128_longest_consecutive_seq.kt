@@ -1,6 +1,9 @@
 import kotlin.test.assertEquals
 
 class Solution128 {
+    // เก็บ count ความยาวทั้งหมดไว้ที่ขอบสองข้าง
+    // ถ้ามีการมาต่อก็คำนวณความยาวใหม่ แล้วก็ไปไว้ที่ขอบสองข้าง
+    // ตอน for each in nums ก็เช็คแค่ข้างๆ ตัวเดียวได้เลย คำนวณมาเก็บไว้ที่ขอบแล้ว
     fun longestConsecutive(nums: IntArray): Int {
         val n = nums.distinct()
         val map = mutableMapOf<Int, Int>()
@@ -16,7 +19,7 @@ class Solution128 {
         }
 
 
-        return map.maxBy { it.value }?.value ?: 0
+        return map.maxByOrNull { it.value }?.value ?: 1
     }
 }
 

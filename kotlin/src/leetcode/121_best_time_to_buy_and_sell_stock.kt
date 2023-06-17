@@ -1,3 +1,5 @@
+package leetcode
+
 import kotlin.test.assertEquals
 
 class Solution121 {

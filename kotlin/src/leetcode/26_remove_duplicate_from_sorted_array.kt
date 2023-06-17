@@ -1,25 +1,20 @@
 class Solution26 {
+    // i คือ index ของ non-dup จะชี้ตัวล่าสุดของ result
+    // j วิ่งนำหน้าไป ถ้าเจอตัวไม่ซ้ำก็เอามาใส่ช่อง i
     fun removeDuplicates(nums: IntArray): Int {
         if (nums.isEmpty()) return 0
-        var targetIndex = -1
-        var previous = nums[0]
-        var count = 1
-        for (i in 1 until nums.size) {
-            if (nums[i] > previous) {
-                previous = nums[i]
-                count += 1
-                if (targetIndex > -1) {
-                    // swap then targetIndex++
-                    val temp = nums[i]
-                    nums[i] = nums[targetIndex]
-                    nums[targetIndex] = temp
-                    targetIndex += 1
-                }
-            } else if (nums[i] == previous && targetIndex == -1) {
-                targetIndex = i
+        var i = 0
+        var j = 1
+        while (j < nums.size) {
+            if (nums[j] > nums[i]) {
+                // ถ้ามากกว่าเอามาเติมลงช่อง i ขยับ i
+                // ถ้าเท่ากับวิ่งผ่านไปเลย
+                nums[i + 1] = nums[j]
+                i += 1
             }
+            j += 1
         }
-        return count
+        return i + 1
     }
 }
 

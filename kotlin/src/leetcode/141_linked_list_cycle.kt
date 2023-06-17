@@ -1,5 +1,7 @@
+import leetcode.Node
+
 class Solution14 {
-    fun hasCycle(head: ListNode?): Boolean {
+    fun hasCycle(head: Node?): Boolean {
         if (head == null) return false
         var i1 = head
         var i2 = head.next
