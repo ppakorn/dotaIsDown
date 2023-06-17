@@ -4,10 +4,9 @@ class Solution49 {
         strs.forEach {
             val key = key(it)
             if (map[key] == null) {
-                map[key] = mutableListOf(it)
-            } else {
-                map[key]!!.add(it)
+                map[key] = mutableListOf()
             }
+            map[key]!!.add(it)
         }
 
         return map.map { it.value }
@@ -18,7 +17,7 @@ class Solution49 {
         s.forEach {
             a[it - 'a'] += 1
         }
-        return a.joinToString()
+        return a.joinToString("-")
     }
 }
 

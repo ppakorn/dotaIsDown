@@ -1,5 +1,7 @@
+import leetcode.Node
+
 private class Solution160 {
-    fun getIntersectionNode(headA:ListNode?, headB:ListNode?):ListNode? {
+    fun getIntersectionNode(headA: Node?, headB: Node?): Node? {
         if (headA == null || headB == null) {
             return null
         }
@@ -49,16 +51,16 @@ private class Solution160 {
 
 
 fun main() {
-    val c3 = ListNode(33)
-    val c2 = ListNode(32).apply { next = c3 }
-    val c1 = ListNode(31).apply { next = c2 }
+    val c3 = Node(33)
+    val c2 = Node(32).apply { next = c3 }
+    val c1 = Node(31).apply { next = c2 }
 
-    val b3 = ListNode(23).apply { next = null }
-    val b2 = ListNode(22).apply { next = null }
-    val b1 = ListNode(21).apply { next = b2 }
+    val b3 = Node(23).apply { next = null }
+    val b2 = Node(22).apply { next = null }
+    val b1 = Node(21).apply { next = b2 }
 
-    val a2 = ListNode(12).apply { next = null }
-    val a1 = ListNode(11).apply { next = a2 }
+    val a2 = Node(12).apply { next = null }
+    val a1 = Node(11).apply { next = a2 }
 
     val s = Solution160()
     println(s.getIntersectionNode(a1, b1)?.`val`)

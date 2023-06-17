@@ -1,5 +1,8 @@
+import leetcode.Node
+import leetcode.printListNode
+
 class Solution21 {
-    fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
+    fun mergeTwoLists(l1: Node?, l2: Node?): Node? {
         if (l1 == null) {
             return l2
         }
@@ -10,7 +13,7 @@ class Solution21 {
 
         var i1 = l1
         var i2 = l2
-        val result: ListNode
+        val result: Node
         if (i1.`val` < i2.`val`) {
             result = i1
             i1 = i1.next
@@ -42,16 +45,16 @@ class Solution21 {
 }
 
 fun main() {
-    val c3 = ListNode(33)
-    val c2 = ListNode(32).apply { next = c3 }
-    val c1 = ListNode(31).apply { next = c2 }
+    val c3 = Node(33)
+    val c2 = Node(32).apply { next = c3 }
+    val c1 = Node(31).apply { next = c2 }
 
-    val b3 = ListNode(23).apply { next = null }
-    val b2 = ListNode(22).apply { next = b3 }
-    val b1 = ListNode(21).apply { next = b2 }
+    val b3 = Node(23).apply { next = null }
+    val b2 = Node(22).apply { next = b3 }
+    val b1 = Node(21).apply { next = b2 }
 
-    val a2 = ListNode(12).apply { next = c1 }
-    val a1 = ListNode(11).apply { next = a2 }
+    val a2 = Node(12).apply { next = c1 }
+    val a1 = Node(11).apply { next = a2 }
 
     val s = Solution21()
     val case1 = s.mergeTwoLists(b3, c3)

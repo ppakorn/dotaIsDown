@@ -1,8 +1,10 @@
+import leetcode.Node
+
 class Solution61 {
-    fun rotateRight(head: ListNode?, k: Int): ListNode? {
+    fun rotateRight(head: Node?, k: Int): Node? {
         if (head == null) return null
         var n = 1
-        var h: ListNode = head
+        var h: Node = head
         while (h.next != null) {
             n += 1
             h = h.next!!
