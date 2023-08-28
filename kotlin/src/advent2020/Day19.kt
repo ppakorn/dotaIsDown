@@ -1,6 +1,5 @@
 package advent2020
 
-import com.sun.org.apache.xpath.internal.operations.Bool
 import java.io.File
 
 class Day19 {

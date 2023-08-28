@@ -2,26 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9eeb0e-ec58-44d5-a588-99be6bc73645" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/Last_digit_of_a_large_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/best_travel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/is_my_friend_cheating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/moving_zero_to_the_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/perfect_power.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/5kyu/scrambles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/build_tower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/digital_root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/equals_side_of_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/eureka.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/find_the_odd_int.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Codewars/6kyu/pyramid_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/312_burst_balloon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/338_counting_bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/581_Shortest_Unsorted_Continuous_Subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/SteamIsDown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/SteamIsDown.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/71_simplify_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/lib/gson-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/arise/BinaryGap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/arise/ChooseAscending.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/arise/ReverseInt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/arise/UniqueIntArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/dime/longest-substring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/dime/possible-binary-string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/100_is_same_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/101_symmetric_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/120_triangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/129_sum_root_to_leaf_numbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/130_surrounded_region.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/138_copy_list_with_random.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/139_word_break.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/150_evaluate_reverse_polish.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/162_find_peak_element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/168_excel_sheet_column_title_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/17_letter_combination_phone_number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/198_house_robber2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/19_remove_nth_node.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/206_reverse_linked_list.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/207_course_schedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/210_course_schedule_II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/224_basic_calculator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/226_invert_binary_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/228_summary_ranges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/300_longest_increasing_subsequences.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/322_coin_change_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/33_search_in_rotate_sorted_array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/35_search_insert_position.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/452_minimum_number_of_arrows.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/542_01_matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/56_merge_intervals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/57_insert_interval.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/63_unique_paths_II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/64_minimum_path_sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/712_minimum_ascii.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/74_search_2d_matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/77_combinations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/808_soup_serving.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/82_remove_duplicate_from_sorted_list.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/920_number_of_music_playlists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/92_reverse_linked_list_II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/95_unique_binary_search_tree_II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/kbtg_error_log_extraction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/kbtg_frequency_sort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/kbtg_relevant_food_outlets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/202_Happy_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/202_Happy_Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/src/advent2020/Day19.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/src/advent2020/Day19.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/src/leetcode/155_min_stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/155_min_stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/src/leetcode/46_permutation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/46_permutation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin/src/leetcode/Transform.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin/src/leetcode/Transform.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Kotlin Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,6 +82,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="43" />
@@ -52,22 +92,23 @@
     <option name="height" value="783" />
   </component>
   <component name="ProjectId" id="1eo5EePH2qboBzRvTLfIElYjV98" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="show.unlinked.gradle.project.popup" value="true" />
-  </component>
-  <component name="RunManager" selected="Kotlin script.198_house_robber.kts">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ampos/dotaIsDown/LeetCode&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.71_simplify_path">
     <configuration name="198_house_robber.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="filePath" value="$PROJECT_DIR$/198_house_robber.kts" />
@@ -103,6 +144,7 @@
       </method>
     </configuration>
     <configuration name="202_Happy_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -113,13 +155,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/202_Happy_Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="80_Remove_Dup_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="71_simplify_path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -130,21 +176,48 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/71_simplify_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="80_Remove_Dup_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/80_Remove_Dup_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Kotlin script.198_house_robber.kts" />
+      <item itemvalue="Python.202_Happy_Number" />
+      <item itemvalue="Python.71_simplify_path" />
+      <item itemvalue="Python.80_Remove_Dup_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin script.198_house_robber.kts" />
+        <item itemvalue="Python.71_simplify_path" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -157,11 +230,5 @@
       <updated>1503591390762</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="23" width="1024" height="829" key="SettingsEditor" timestamp="1594975107455">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="208" y="23" width="1024" height="829" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1594975107455" />
   </component>
 </project>

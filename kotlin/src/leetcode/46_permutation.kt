@@ -1,19 +1,18 @@
 class Solution46 {
     fun permute(nums: IntArray): List<List<Int>> {
-        val result = mutableListOf<List<Int>>()
-        permute(listOf(), nums.toList(), result)
-        return result
+        return permute(listOf(), nums.toList())
     }
 
-    private fun permute(current: List<Int>, remain: List<Int>, result: MutableList<List<Int>>) {
+    private fun permute(current: List<Int>, remain: List<Int>): List<List<Int>> {
         if (remain.isEmpty()) {
-            result.add(current)
-            return
+            return listOf(current)
         }
 
-        for (i in remain) {
-            permute(current + i, remain - i, result)
+        val result = mutableListOf<List<Int>>()
+        remain.forEach {
+            result.addAll(permute(current + it, remain - it))
         }
+        return result
     }
 }
 

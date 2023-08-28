@@ -1,21 +1,22 @@
+package leetcode
+
 class MinStack() {
 
     /** initialize your data structure here. */
-    var minn = Int.MAX_VALUE
-    val listt = mutableListOf<Int>()
+    private val minHistory = mutableListOf<Int>()
+    private val listt = mutableListOf<Int>()
 
     fun push(x: Int) {
         listt.add(x)
-        minn = minOf(minn, x)
+        if (minHistory.isEmpty() || x <= minHistory[minHistory.lastIndex]) {
+            minHistory.add(x)
+        }
     }
 
     fun pop() {
-        val recalMin = top() == minn
-        listt.removeAt(listt.lastIndex)
-        if (listt.isEmpty()) {
-            minn = Int.MAX_VALUE
-        } else if (recalMin) {
-            minn = listt.min()!!
+        val v = listt.removeAt(listt.lastIndex)
+        if (v == minHistory[minHistory.lastIndex]) {
+            minHistory.removeAt(minHistory.lastIndex)
         }
     }
 
@@ -24,7 +25,7 @@ class MinStack() {
     }
 
     fun getMin(): Int {
-        return minn
+        return minHistory[minHistory.lastIndex]
     }
 
 }

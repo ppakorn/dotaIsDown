@@ -16,6 +16,21 @@ fun transform2DIntArray(str: String): Array<IntArray> {
         .toTypedArray()
 }
 
+fun transform2DListInt(str: String): List<List<Int>> {
+    return str
+        .removePrefix("[")
+        .removeSuffix("]")
+        .split("],")
+        .map { a ->
+            val aa = a.removePrefix("[").removeSuffix("]")
+            if (aa.isEmpty()) {
+                emptyList<Int>()
+            } else {
+                aa.split(",").map { it.toInt() }
+            }
+        }
+}
+
 
 fun transform2DString(str: String): Array<String> {
     return str
