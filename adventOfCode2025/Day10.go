@@ -64,7 +64,7 @@ func pressDFS(target, current string, buttons [][]int, index, pressCount int) in
 
 func day10_2() {
 	sum := 0
-	readLines("Day10-prac.txt", func(s string) {
+	readLines("Day10.txt", func(s string) {
 		a := strings.Split(s, " ")
 
 		targetVoltageStr := strings.Split(a[len(a)-1][1:len(a[len(a)-1])-1], ",")
@@ -86,8 +86,16 @@ func day10_2() {
 			buttons = append(buttons, button)
 		}
 
-		count := pressVoltageBFS(targetVoltage, buttons)
-		sum += count
+		stateToSetButtons := calStateToButtonPressOnce(buttons, len(targetVoltage))
+		allZeroJolt := make([]int, len(targetVoltage))
+		memo := map[string]int{
+			getVoltageKey(allZeroJolt): 0,
+		}
+		result := calBackward(targetVoltage, buttons, stateToSetButtons, memo)
+		if result == 100000000 {
+			println(s)
+		}
+		sum += result
 	})
 	println(sum)
 }
@@ -109,11 +117,6 @@ func pressVoltageBFS(targetVoltages []int, buttons [][]int) int {
 		c := queue[0]
 		queue = queue[1:]
 
-		// stop pushing buttons
-		if isVoltageEqual(c.voltages, targetVoltages) {
-			return c.count
-		}
-
 		// push all buttons to queue
 		for _, button := range buttons {
 			newVoltage := slices.Clone(c.voltages)
@@ -124,6 +127,11 @@ func pressVoltageBFS(targetVoltages []int, buttons [][]int) int {
 			key := getVoltageKey(newVoltage)
 			if _, ok := visited[key]; ok {
 				continue
+			}
+
+			// stop pushing buttons
+			if isVoltageEqual(c.voltages, targetVoltages) {
+				return c.count
 			}
 
 			// exceed not continue from this state
@@ -143,12 +151,7 @@ func pressVoltageBFS(targetVoltages []int, buttons [][]int) int {
 }
 
 func isVoltageEqual(state, target []int) bool {
-	for i := 0; i < len(state); i++ {
-		if state[i] != target[i] {
-			return false
-		}
-	}
-	return true
+	return fmt.Sprint(state) == fmt.Sprint(target)
 }
 
 func isVoltageExceed(state, target []int) bool {
@@ -163,3 +166,113 @@ func isVoltageExceed(state, target []int) bool {
 func getVoltageKey(state []int) string {
 	return fmt.Sprint(state)
 }
+
+func calStateToButtonPressOnce(buttons [][]int, size int) map[string][][]int {
+	// return map string like "0,1,1" to [[1,2], [1,3,4]]
+	// to indicate that this state of lights can be created from all off (0,0,0) from pressing set of buttons
+	stateToSetButtons := make(map[string][][]int)
+	initState := make([]int, size)
+	calStateDFS(buttons, 0, initState, []int{}, stateToSetButtons)
+	return stateToSetButtons
+}
+
+func calStateDFS(buttons [][]int, index int, state []int, pressed []int, store map[string][][]int) {
+	if index == len(buttons) {
+		key := getVoltageKey(state)
+		if _, ok := store[key]; ok {
+			store[key] = append(store[key], pressed)
+		} else {
+			store[key] = [][]int{pressed}
+		}
+		return
+	}
+
+	// not press button
+	calStateDFS(buttons, index+1, slices.Clone(state), slices.Clone(pressed), store)
+
+	// press button
+	newState := slices.Clone(state)
+	for _, light := range buttons[index] {
+		newState[light] = (newState[light] + 1) % 2
+	}
+	newPressed := append(pressed, index)
+	calStateDFS(buttons, index+1, newState, newPressed, store)
+}
+
+func calBackward(state []int, buttons [][]int, stateToSetButtons map[string][][]int, memo map[string]int) int {
+	// end of recursion = all zero which is the initial of memo
+	key := getVoltageKey(state)
+	if value, ok := memo[key]; ok {
+		return value
+	}
+
+	allEven := true
+	for _, t := range state {
+		if t%2 > 0 {
+			allEven = false
+			break
+		}
+	}
+
+	if allEven {
+		newState := cutStateHalf(state)
+		result := calBackward(newState, buttons, stateToSetButtons, memo) * 2
+		memo[key] = result
+		return result
+	}
+
+	setButtons := stateToSetButtons[getVoltageKey2(state)]
+	minPress := 100000000
+	for _, bs := range setButtons {
+		newState := slices.Clone(state)
+		for _, b := range bs {
+			effect := buttons[b]
+			for _, e := range effect {
+				newState[e]--
+			}
+		}
+
+		if isStateExceedZero(newState) {
+			continue
+		}
+
+		// correct one
+		//minPress = min(minPress, 2*calBackward(cutStateHalf(newState), buttons, stateToSetButtons, memo)+len(bs))
+
+		// wrong and slow
+		minPress = min(minPress, calBackward(cutStateHalf(newState), buttons, stateToSetButtons, memo)+len(bs))
+	}
+	memo[key] = minPress
+	return minPress
+}
+
+func isStateExceedZero(state []int) bool {
+	for _, s := range state {
+		if s < 0 {
+			return true
+		}
+	}
+	return false
+}
+
+// input must be all even
+func cutStateHalf(state []int) []int {
+	newState := slices.Clone(state)
+	for i, s := range state {
+		newState[i] = s / 2
+	}
+	return newState
+}
+
+func getVoltageKey2(state []int) string {
+	// change to be light mode (0 or 1)
+	lights := slices.Clone(state)
+	for i, l := range lights {
+		lights[i] = l % 2
+	}
+	return getVoltageKey(lights)
+}
+
+//190017581 too high
+//1900017581
+// มีอันออกสิบล้าน
