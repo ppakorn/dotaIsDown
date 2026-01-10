@@ -43,7 +43,7 @@ func day6() {
 	//println(travel2(grid, start, rowToRock, columnToRock))
 	day6Max0 = len(grid)
 	day6Max1 = len(grid[0])
-	directions = [][2]int{
+	day6Directions = [][2]int{
 		{-1, 0},
 		{0, 1},
 		{1, 0},
@@ -208,7 +208,7 @@ func findPreviousPath(memo []map[int][][2]int, direction int, pos [2]int) bool {
 
 // ลองวางหินแล้ววิ่งทุกจังหวะดูจริงๆ เลยว่า loop ไหม
 // อาจจะมีทางที่ไม่เคยวิ่งผ่านมาก่อน แต่หินมันวางเป็น loop เล็กๆ แล้วส่งยามเข้าไป loop ได้
-var directions [][2]int
+var day6Directions [][2]int
 var day6Max0, day6Max1 int
 
 func travel3(grid []string, pos0, pos1 int) int {
@@ -222,7 +222,7 @@ func travel3(grid []string, pos0, pos1 int) int {
 	d := 0
 
 	for {
-		direction := directions[d]
+		direction := day6Directions[d]
 		new0, new1 := pos0+direction[0], pos1+direction[1]
 
 		if new0 < 0 || new0 >= day6Max0 || new1 < 0 || new1 >= day6Max1 {
@@ -270,7 +270,7 @@ func testLoop(grid [][]rune, pos0, pos1, d int) bool {
 		}
 		memo[key] = true
 
-		direction := directions[d]
+		direction := day6Directions[d]
 		new0, new1 := pos0+direction[0], pos1+direction[1]
 
 		if new0 < 0 || new0 >= day6Max0 || new1 < 0 || new1 >= day6Max1 {
